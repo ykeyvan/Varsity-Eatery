@@ -64,18 +64,20 @@ export function isResFlag(){
 // ============================================================================
 export async function getSecretArt(){
   try {
-    let res = await fetch("/assets/php/handle/VarsitysEatery/getSecretArt.han.php");
+    let res = await fetch("/assets/php/handle/getSecretArt.han.php")
 
     if(res.status !== 200){
-      throw new Error("Server response error");
+      console.log(data['error']);
+      throw new Error("Server Responded with Status Code Error: " + res.status);
     }
 
-    let data = await res.blob();
-    let url = URL.createObjectURL(data);
+    let blobData = await res.blob();
+    let url = URL.createObjectURL(blobData);
+
     resFlag = true;
     return url;
   } catch(e) {
-    console.log(e);
+    console.error(e);
     return false;
   }
 } // end of getSecretArt()

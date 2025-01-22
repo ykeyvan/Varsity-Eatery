@@ -23,15 +23,30 @@
   try {
     if(isset($_POST['jsSendValid']) && $_POST['url'] === ''){
       $sendContactFormHan = TRUE;
-      $includeFullPath = realpath($_SERVER['DOCUMENT_ROOT'] . '/../protected_html/VarsitysEatery/php/include/contact_form/sendContactForm.inc.php');
-      if(file_exists($includeFullPath)){
-        include_once($includeFullPath);
-      } else {
-        throw new Exception('Load Include File: Could not find include file');
+
+      if(!isset($sendContactFormHan) || !$sendContactFormHan){
+        throw new Exception('Script Include Check: Handler variable not found');
       }
+
+      unset($sendContactFormHan);
+
+      $sendContactFormInc = TRUE;
+      $validationFullPath = '/var/www/html/private_html/validateSendContactForm.inc.php';
+      if(file_exists($validationFullPath)){
+        include_once($validationFullPath);
+      } else {
+        throw new Exception('Load Verificaiton File: Could not find validation file');
+      }
+
+      // if(file_exists($includeFullPath)){
+      //   include_once($includeFullPath);
+      // } else {
+      //   throw new Exception('Load Include File: Could not find include file');
+      // }
     } else {
       throw new Exception('Form Data Check: Form data match failed');
     }
+
   } catch(CustomExceptions\FormsException $e) {
     echo(json_encode(
       array(

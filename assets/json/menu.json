@@ -1,0 +1,357 @@
+{
+  "Breakfast": {
+    "info": "All orders comes with the option of being served with a side of eggs and toast. Toast can be changed to sasuage or bacon.",
+    "items": [
+      {
+        "name": "Pancakes",
+        "desc": "A serving of 2 large pancakes.",
+        "price": 2.99,
+        "imgPath": "images/menu/breakfast/pancakes.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Waffles",
+        "desc": "A serving of 3 waffles",
+        "price": 2.89,
+        "imgPath": "images/menu/breakfast/waffles.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Egg Sandwich",
+        "desc": "Has English muffins and can be ordered with bacon.",
+        "price": 3,
+        "imgPath": "images/menu/breakfast/egg-sandwich.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Breakfast Burrito",
+        "desc": "Eggs and veggies wraped in a tortilla",
+        "price": 2.99,
+        "imgPath": "images/menu/breakfast/breakfast-burrito.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Chocolate Pancakes",
+        "desc": "Pancakes topped with chocolate pieces.",
+        "price": 3.29,
+        "imgPath": "images/menu/breakfast/chocolate-pancakes.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Veggie Breakfast",
+        "desc": "Vegetables with eggs, bacon, and toast.",
+        "price": 4.99,
+        "imgPath": "images/menu/breakfast/veggie-breakfast.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Avocado Toast",
+        "desc": "Can be orded with spinich.",
+        "price": 2.99,
+        "imgPath": "images/menu/breakfast/avocado-toast.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Avocado Egg Toast",
+        "desc": "Can be orded with spinich.",
+        "price": 3.49,
+        "imgPath": "images/menu/breakfast/avocado-egg-toast.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Egg Toast",
+        "desc": "Egg on a single slice of bread.",
+        "price": 2.49,
+        "imgPath": "images/menu/breakfast/egg-toast.jpg",
+        "imgAlt": ""
+      }
+    ]
+  },
+  "Salads": {
+    "info": "All salads comes with lettuce and tomatos.",
+    "items": [
+      {
+        "name": "Vegetable Salad",
+        "desc": "Comes spinich, cucumbers, onions, and more.",
+        "price": 3.49,
+        "imgPath": "images/menu/salads/vegetable-salad.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Vegetable Egg Salad",
+        "desc": "Comes with eggs, croutons, and more",
+        "price": 3.49,
+        "imgPath": "images/menu/salads/vegetable-egg-salad.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Chicken Salad",
+        "desc": "Has chopped chicken added.",
+        "price": 3.99,
+        "imgPath": "images/menu/salads/chicken-salad.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Avocado Vegetable Salad",
+        "desc": "Has a small sliced avocado added.",
+        "price": 5,
+        "imgPath": "images/menu/salads/avocado-vegetable-salad.jpg",
+        "imgAlt": ""
+      }
+    ]
+  },
+  "Charbroiled Burgers": {
+    "info": "All of our burgers are 1/4 lb. with lettuce, tomatos, onions, pickles, and thousand island dressing. They are served with white or wheat buns. You can also order a no bun lettuce wrapped burger.",
+    "items": [
+      {
+        "name": "Double Cheeseburger",
+        "desc": "Double beef patty burger.",
+        "price": 4.99,
+        "imgPath": "images/menu/charbroiled-burgers/double-cheeseburger.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Hamburger",
+        "desc": "A classic single beef patty burger.",
+        "price": 3.49,
+        "imgPath": "images/menu/charbroiled-burgers/hamburger.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Cheeseburger",
+        "desc": "Burger with cheddar cheese.",
+        "price": 3.99,
+        "imgPath": "images/menu/charbroiled-burgers/cheeseburger.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Egg & Vegetable Burger",
+        "desc": "Has egg and spinich.",
+        "price": 4.99,
+        "imgPath": "images/menu/charbroiled-burgers/egg-vegetable-burger.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Chicken Burger",
+        "desc": "",
+        "price": 3.99,
+        "imgPath": "images/menu/charbroiled-burgers/chicken-burger.jpg",
+        "imgAlt": "Deep fried chicken patty burger."
+      },
+      {
+        "name": "Bacon Cheeseburger",
+        "desc": "",
+        "price": 5,
+        "imgPath": "images/menu/charbroiled-burgers/bacon-cheeseburger.jpg",
+        "imgAlt": "Burger with bacon."
+      },
+      {
+        "name": "Double Bacon Burger",
+        "desc": "Burger with two beef patties and more bacon.",
+        "price": 6.49,
+        "imgPath": "images/menu/charbroiled-burgers/double-bacon-burger.jpg",
+        "imgAlt": ""
+      }
+    ]
+  },
+  "Sandwiches": {
+    "info": "Sandwiches can be made with sliced bread (white or wheat bread) or a bigger bolillo bread. ",
+    "items": [
+      {
+        "name": "Ham Sandwich",
+        "desc": "Non-smoked ham sandwich.",
+        "price": 3.39,
+        "imgPath": "images/menu/sandwiches/ham-sandwich.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Multiple Ham Sandwich",
+        "desc": "Has 3 kinds of hams.",
+        "price": 4.39,
+        "imgPath": "images/menu/sandwiches/multiple-ham-sandwich.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Meat Sandwich",
+        "desc": "Has thin slices of meat inside.",
+        "price": 3,
+        "imgPath": "images/menu/sandwiches/meat-sandwich.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Tuna Veggie Sandwich",
+        "desc": "Comes with chopped veggies inside sandwich.",
+        "price": 3.39,
+        "imgPath": "images/menu/sandwiches/tuna-veggie-sandwich.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Croissant Sandwich",
+        "desc": "Has sliced meat inside.",
+        "price": 5.39,
+        "imgPath": "images/menu/sandwiches/croissant-sandwich.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Chicken Sandwich",
+        "desc": "Chopped chicken and cheese inside.",
+        "price": 4.99,
+        "imgPath": "images/menu/sandwiches/chicken-sandwich.jpg",
+        "imgAlt": ""
+      }
+    ]
+  },
+  "Mexican Food": {
+    "info": "",
+    "items": [
+      {
+        "name": "Carne Asada Tacos",
+        "desc": "4 tacos with limes.",
+        "price": 3.49,
+        "imgPath": "images/menu/mexican-food/carne-asada-tacos.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Quesadilla",
+        "desc": "",
+        "price": 3.29,
+        "imgPath": "images/menu/mexican-food/quesadilla.jpg",
+        "imgAlt": "Tortilla with mozarella cheese inside."
+      },
+      {
+        "name": "Chicken Burritos",
+        "desc": "2 burritos with rice and chicken inside.",
+        "price": 3.49,
+        "imgPath": "images/menu/mexican-food/chicken-burritos.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Fat Chicken Tacos",
+        "desc": "Tacos wraps with soft fluffy tortillas.",
+        "price": 4,
+        "imgPath": "images/menu/mexican-food/fat-chicken-tacos.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Tacos with Rice and Beans",
+        "desc": "3 carne asada tacos along with rice and beans.",
+        "price": 5,
+        "imgPath": "images/menu/mexican-food/tacos-rice-beans.jpg",
+        "imgAlt": ""
+      }
+    ]
+  },
+  "Sides": {
+    "info": "All sides can be served with Italian seasoning.",
+    "items": [
+      {
+        "name": "French Fries",
+        "desc": "Fries made with freashly peeled and deep fried potatos.",
+        "price": 2.99,
+        "imgPath": "images/menu/sides/french-fries.jpg",
+        "imgAlt": "Bowl of french fries"
+      },
+      {
+        "name": "Onion Rings",
+        "desc": "",
+        "price": 1.99,
+        "imgPath": "images/menu/sides/onion-rings.jpg",
+        "imgAlt": "deep fried onions"
+      },
+      {
+        "name": "Tater Tots",
+        "desc": "",
+        "price": 2.49,
+        "imgPath": "images/menu/sides/tater-tots.jpg",
+        "imgAlt": "A plate of tater tots."
+      },
+      {
+        "name": "Wavy Chips",
+        "desc": "",
+        "price": 1.99,
+        "imgPath": "images/menu/sides/wavy-chips.jpg",
+        "imgAlt": "Wavy potato chips."
+      },
+      {
+        "name": "Sides Combo",
+        "desc": "A set of two sides in one plate.",
+        "price": 4.99,
+        "imgPath": "images/menu/sides/sides-combo.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Chicken Nuggets",
+        "desc": "Served with 8 chicken nuggets.",
+        "price": 3,
+        "imgPath": "images/menu/sides/chicken-nuggets.jpg",
+        "imgAlt": ""
+      }
+    ]
+  },
+  "Beverages": {
+    "info": "",
+    "items": [
+      {
+        "name": "Water",
+        "desc": "Free water with purchase of any other food or drink.",
+        "price": 0,
+        "imgPath": "images/menu/beverages/water.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Soda",
+        "desc": "",
+        "price": 1.39,
+        "imgPath": "images/menu/beverages/soda.jpg",
+        "imgAlt": "Canned soda"
+      },
+      {
+        "name": "Coffee",
+        "desc": "Hot coffee",
+        "price": 1.79,
+        "imgPath": "images/menu/beverages/coffee.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Lemonade Juice",
+        "desc": "Made of freshly squeezed lemons.",
+        "price": 1.99,
+        "imgPath": "images/menu/beverages/lemonade-juice.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Watermelon Juice",
+        "desc": "Made of freshly squeezed watermelons.",
+        "price": 1.99,
+        "imgPath": "images/menu/beverages/watermelon-juice.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Caramel Frappe",
+        "desc": "Icecream milkshake with whipping cream and caramel.",
+        "price": 4,
+        "imgPath": "images/menu/beverages/caramel-frappe.jpg",
+        "imgAlt": ""
+      }
+    ]
+  },
+  "Other Foods": {
+    "info": "",
+    "items": [
+      {
+        "name": "Pasta",
+        "desc": "Alfredo pasta",
+        "price": 5.99,
+        "imgPath": "images/menu/other-foods/pasta.jpg",
+        "imgAlt": ""
+      },
+      {
+        "name": "Churros",
+        "desc": "Bread based deseart coated in sugar.",
+        "price": 1.89,
+        "imgPath": "images/menu/other-foods/churros.jpg",
+        "imgAlt": ""
+      }
+    ]
+  }
+}

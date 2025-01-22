@@ -57,24 +57,23 @@ export async function initMenu(initEL){
 // ============================================================================
 export async function fetchMenu() {
   try {
-    let res = await fetch("/assets/php/handle/VarsitysEatery/getMenu.han.php", {
+    let res = await fetch("/assets/php/handle/getMenu.han.php", {
       method: 'GET',
       headers: {
         "Accept": "application/json"
       },
     });
-  
+    let data = await res.json();
     if(res.status !== 200){
-      throw new Error("Server response error");
+      console.log(data['error']);
+      throw new Error("Server Responded with Status Code Error: " + res.status);
     }
-
-    // console.log(res.text());
-    return res.json();
+    return data;
   } catch(e) {
-    console.log(e);
+    console.error(e);
     return false;
   } // end of try/catch
-} // end of getMefetchMenunu()
+} // end of fetchMenu()
 
 // ==== modSetMenu() ==========================================================
 //

@@ -25,7 +25,19 @@
   try {
     if(isset($_POST['jsGetValid']) && $_POST['url'] === ''){
       $getContactFormHan = TRUE;
-      $includeFullPath = realpath($_SERVER['DOCUMENT_ROOT'] . '/../protected_html/VarsitysEatery/php/include/contact_form/getContactForm.inc.php');
+      if(!isset($getContactFormHan) || !$getContactFormHan){
+        throw new Exception('Script Include Check: Handler variable not found');
+      }
+    
+      unset($getContactFormHan);
+      $getContactFormInc = TRUE;
+      $validationFullPath = '/private_html/validateGetContactForm.inc.php';
+      if(file_exists($validationFullPath)){
+        include_once($validationFullPath);
+      } else {
+        throw new Exception('Load Verificaiton File: Could not find validation file');
+      }
+      
       if(file_exists($includeFullPath)){
         include_once($includeFullPath);
       } else {

@@ -381,7 +381,7 @@
         ContactForm.dispSubmittedForm(backEndValidationRes['data']);
         ContactForm.enableRetry(formEl);
       }
-    } else { // Rejected form
+    } else { // Rejected formfrontEndValidationRes
       ContactForm.dispFormResults(backEndValidationRes['form']);
       ContactForm.enableSubmitBtn(formEl);
     }
@@ -414,7 +414,7 @@
       if(!SecretArt.chkCmd(ev)){ return}
 
       let content = await SecretArt.getSecretArt();
-      
+
       if(content){
         SecretArt.dispSecretArt(pollo, content);
       }

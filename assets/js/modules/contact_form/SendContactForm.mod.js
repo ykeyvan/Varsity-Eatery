@@ -478,7 +478,7 @@ export function formatFormData(formEl){
 // ============================================================================
 export async function submitForm(formattedFormData){
   try {
-    let res = await fetch('/assets/php/handle/VarsitysEatery/sendContactForm.han.php', {
+    let res = await fetch('/assets/php/handle/sendContactForm.han.php', {
       method: 'POST',
       body: formattedFormData,
       headers: {
